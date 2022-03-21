@@ -14,7 +14,9 @@ module.exports = {
     },
   
     devtool: 'source-map',
-  
+    devServer:{
+
+    },
     module: {
       rules: [
         {
