@@ -3,7 +3,7 @@ class IndexPage extends React.Component{
     public render(): React.ReactNode {
         return(
             <>
-                <h1>Index page</h1>
+                <h1>Index page32</h1>
 
             </>
         );
