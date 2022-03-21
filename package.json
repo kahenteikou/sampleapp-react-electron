@@ -1,0 +1,23 @@
+{
+  "name": "sampleapp-react-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "electron.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kahenteikou/sampleapp-react-electron.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kahenteikou/sampleapp-react-electron/issues"
+  },
+  "homepage": "https://github.com/kahenteikou/sampleapp-react-electron#readme",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}
