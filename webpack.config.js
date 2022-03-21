@@ -16,7 +16,8 @@ module.exports = {
     devtool: 'source-map',
     devServer:{
         open: true,
-        port:3000
+        port:3000,
+        historyApiFallback: true
     },
     module: {
       rules: [
@@ -31,7 +32,8 @@ module.exports = {
   
     plugins: [
       new HtmlWebpackPlugin({
-        template: './src/index.html'
+        template: './src/index.html',
+        filename:"./index.html"
       })
     ]
   };
