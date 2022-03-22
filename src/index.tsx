@@ -7,3 +7,9 @@ ReactDom.render(
     </React.StrictMode>,
     document.getElementById('root')
 );
+
+declare global {
+    interface Window {
+      require: any;
+    }
+}

@@ -2,7 +2,7 @@ import * as React from "react";
 import {BrowserRouter,Route,Routes} from "react-router-dom";
 import IndexPage from "./pages/IndexPage";
 import NotFoundPage from "./pages/NotFoundPage";
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 class App extends React.Component{
     public render():React.ReactNode{
         return(
